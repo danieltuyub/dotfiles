@@ -1,0 +1,15 @@
+# Datos / compilados
+**/.DS_Store
+**/*.swp
+**/*.swo
+**/.cache/
+
+
+# Neovim runtime (instalado automáticamente)
+/.local/
+/.config/nvim/plugged/
+/.config/nvim/current_theme.conf
+/.config/nvim/.netrwhist
+/.local/share/nvim/site/pack/
+/.local/share/nvim/lazy/
+
