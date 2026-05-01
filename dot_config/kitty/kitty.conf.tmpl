@@ -1,0 +1,9 @@
+# Config base
+include base.conf
+
+# Config específica por OS
+{{ if eq .chezmoi.os "darwin" }}
+include kitty-darwin.conf
+{{ else if eq .chezmoi.os "linux" }}
+include kitty-linux.conf
+{{ end }}
