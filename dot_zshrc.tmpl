@@ -1,0 +1,15 @@
+# XDG base
+export XDG_CONFIG_HOME="$HOME/.config"
+export EDITOR=nvim
+export LANG=en_US.UTF-8
+
+# Carpeta de configs
+export SHELL_CONFIG="$XDG_CONFIG_HOME/bash"
+
+# Cargar todo
+for file in "$SHELL_CONFIG"/*.zsh; do
+  [ -r "$file" ] && source "$file"
+done
+
+# Overrides locales
+[ -f ~/.zshrc_local ] && source ~/.zshrc_local
