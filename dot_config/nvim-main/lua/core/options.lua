@@ -14,7 +14,7 @@ opt.wrap = true
 opt.clipboard = "unnamedplus" -- guarda y, yy, x, etc en clipboard de sistema
 opt.whichwrap:append("<,>,[,]") -- moverse con left/right entre líneas
 opt.signcolumn = "yes"
-opt.mouse = a
+opt.mouse = "a"
 opt.cursorline = true
 
 -- Folding
