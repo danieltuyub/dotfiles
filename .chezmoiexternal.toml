@@ -1,0 +1,4 @@
+[".config/eza/themes"]
+    type = "git-repo"
+    url = "https://github.com/usuario/eza-themes.git"
+    refreshPeriod = "168h"
