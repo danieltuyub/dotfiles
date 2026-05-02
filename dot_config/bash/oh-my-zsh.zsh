@@ -5,6 +5,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # Tema Powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+# Desactivar LS_COLORS de Oh My Zsh para que eza use su propio tema
+DISABLE_LS_COLORS="true"
+
 # Plugins base
 plugins=(
   git
