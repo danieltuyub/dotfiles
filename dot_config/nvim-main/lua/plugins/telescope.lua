@@ -11,8 +11,7 @@ return {
     { "<leader>fg", "<cmd>Telescope live_grep<cr>",  desc = "Live grep" },
     { "<leader>fb", "<cmd>Telescope buffers<cr>",    desc = "Buffers" },
     { "<leader>fw", "<cmd>Telescope grep_string<cr>", desc = "Search word under cursor" },
-    { "<leader>fm", "<cmd>Telescope vim_bookmarks<cr>", desc = "Search bookmars" },
-  },
+    { "<leader>fm", "<cmd>Telescope vim_bookmarks<cr>", desc = "Search bookmars" },  },
   config = function()
     require("telescope").setup({
       defaults = {
